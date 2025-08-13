@@ -80,3 +80,18 @@ code
 
 docker-compose down
 ```
+
+
+
+
+
+
+
+
+
+### Connect With Me
+I'm passionate about building scalable applications and exploring new technologies. 
+If you have any questions about this project, want to discuss software architecture, or just want to connect, feel free to reach out!
+LinkedIn: Your LinkedIn Profile
+Portfolio: Your Portfolio Website
+Email: your.email@example.com

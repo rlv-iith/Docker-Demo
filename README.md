@@ -50,6 +50,13 @@ git clone https://github.com/your-username/docker_demo.git
 ```
 ### Step 2: Navigate to the Project Directory
 
+
 ```bash
 cd docker_demo
+```
+### Step 3: Build and Run the Application
+Use Docker Compose to build the images for all three services and start the containers in the correct order.
+
+```bash
+docker-compose up --build
 ```

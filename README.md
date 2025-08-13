@@ -80,7 +80,27 @@ code
 
 docker-compose down
 ```
+---
 
+## Common Troubleshooting
+
+If you encounter issues during the build process, here are some common solutions:
+
+*   **Error: `no match for platform in manifest`**
+    *   **Problem:** Your Docker Desktop is trying to run a Linux container while it's set to Windows container mode.
+    *   **Solution:** Right-click the Docker icon in your system tray, go to **Settings > General**, and ensure the **"Use the WSL 2 based engine"** option is checked.
+
+*   **Error: `failed to do request... connection timed out`**
+    *   **Problem:** Docker is having trouble connecting to the internet to download the base images, often due to a DNS issue.
+    *   **Solution:** In Docker Desktop, go to **Settings > Docker Engine**. Add a `"dns"` key to the JSON configuration to use a public DNS server like Google's.
+      ```json
+      {
+        "dns": [
+          "8.8.8.8"
+        ]
+      }
+      ```
+      Then click **"Apply & Restart"**.
 
 
 

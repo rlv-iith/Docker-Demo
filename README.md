@@ -29,8 +29,9 @@ The application is composed of three distinct services, each running in its own 
        |
        | (Internal Docker Network Request)
        ▼
-[ Backend Worker: Python Container (Port 5000) ]
+[ Backend Worker: Python Container (Port 5000) ]plaintext
 
+```
 ## How to Achieve It: Running the Project
 
 Follow these steps to get the entire application running on your local machine.
@@ -46,3 +47,9 @@ Clone this project to your local machine.
 
 ```bash
 git clone https://github.com/your-username/docker_demo.git
+```
+### Step 2: Navigate to the Project Directory
+
+```bash
+cd docker_demo
+```

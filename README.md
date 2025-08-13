@@ -103,15 +103,12 @@ If you encounter issues during the build process, here are some common solutions
       Then click **"Apply & Restart"**.
 
 
+---
 
+## Connect With Me
 
+I'm passionate about building scalable applications and exploring new technologies. If you have any questions about this project, want to discuss software architecture, or just want to connect, feel free to reach out!
 
-
-
-
-### Connect With Me
-I'm passionate about building scalable applications and exploring new technologies. 
-If you have any questions about this project, want to discuss software architecture, or just want to connect, feel free to reach out!
-LinkedIn: Your LinkedIn Profile
-Portfolio: Your Portfolio Website
-Email: your.email@example.com
+*   **LinkedIn:** [`Your LinkedIn Profile`](https://www.linkedin.com/in/your-username/)
+*   **Portfolio:** [`Your Portfolio Website`](https://your-portfolio.com)
+*   **Email:** [`your.email@example.com`](mailto:your.email@example.com)

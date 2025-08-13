@@ -60,3 +60,8 @@ Use Docker Compose to build the images for all three services and start the cont
 ```bash
 docker-compose up --build
 ```
+This command will:
+->Pull the base images (python, node, nginx) from Docker Hub.
+->Build the custom images for each of your services based on their Dockerfile.
+->Create a virtual network for the containers to communicate on.
+->Start all three containers. You will see the logs from all services in your terminal.

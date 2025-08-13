@@ -1,0 +1,33 @@
+# docker-compose.yml
+
+# This defines the version of the Docker Compose file format.
+version: '3.8'
+
+# This section defines all the containers (services) that make up your application.
+services:
+
+  # 1. The Frontend Service (what the user sees)
+  frontend:
+    # Tells Docker to build this container using the Dockerfile in the './frontend-service' folder.
+    build: ./frontend-service
+    # Maps port 80 of your computer to port 80 of the container.
+    # This lets you access the website by going to http://localhost in your browser.
+    ports:
+      - "80:80"
+    # This ensures that the Node.js API is started before the frontend starts.
+    depends_on:
+      - node_app
+
+  # 2. The Node.js Backend API Service (the "waiter")
+  node_app:
+    build: ./node-service
+    ports:
+      - "3000:3000"
+    depends_on:
+      - python_api
+
+  # 3. The Python Worker Service (the "chef")
+  python_api:
+    build: ./python-service
+    ports:
+      - "5000:5000"

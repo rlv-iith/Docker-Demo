@@ -65,3 +65,18 @@ This command will:
 ->Build the custom images for each of your services based on their Dockerfile.
 ->Create a virtual network for the containers to communicate on.
 ->Start all three containers. You will see the logs from all services in your terminal.
+### Step 4: Access the Application
+Once the build is complete and the containers are running, open your favorite web browser and navigate to:
+
+```bash
+http://localhost
+```
+You should see the web interface. Type some text into the input box and click the "Call API" button to test the full communication flow.
+
+### Step 5: Stopping the Application
+To stop all the running containers, press Ctrl + C in the terminal where docker-compose is running. To remove the containers and network entirely, run:
+code
+```bash
+
+docker-compose down
+```

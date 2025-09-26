@@ -109,6 +109,6 @@ If you encounter issues during the build process, here are some common solutions
 
 I'm passionate about building scalable applications and exploring new technologies. If you have any questions about this project, want to discuss software architecture, or just want to connect, feel free to reach out!
 
-*   **LinkedIn:** [`Your LinkedIn Profile`](https://www.linkedin.com/in/your-username/)
+*   **LinkedIn:** [`Your LinkedIn Profile`](www.linkedin.com/in/ramuni-lalith-vishnu-4143ab299)
 *   **Portfolio:** [`Your Portfolio Website`](https://your-portfolio.com)
-*   **Email:** [`your.email@example.com`](mailto:your.email@example.com)
+*   **Email:** [`your.email@example.com`](ic23btech11016@iith.ac.in)

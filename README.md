@@ -111,4 +111,4 @@ I'm passionate about building scalable applications and exploring new technologi
 
 *   **LinkedIn:** [`Ramuni Lalith Vishnu`](https://www.linkedin.com/in/ramuni-lalith-vishnu-4143ab299)
 *   **Portfolio:** [`Your Portfolio Website`](https://your-portfolio.com)
-*   **Email:** [`your.email@example.com`](ic23btech11016@iith.ac.in)
+*   **Email:** [`ic23btech11016@iith.ac.in`](ic23btech11016@iith.ac.in)
